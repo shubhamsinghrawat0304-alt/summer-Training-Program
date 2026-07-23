@@ -11,7 +11,7 @@ st.set_page_config(
 
 
 
-model = joblib.load("Main_project.pkl")
+model = joblib.load("Main_Project.pkl")
 symptoms = joblib.load("feature_names.pkl")
 recommendation = pd.read_csv("disease_medicine_precaution.csv")
 
